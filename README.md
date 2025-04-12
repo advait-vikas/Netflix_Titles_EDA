@@ -1,66 +1,64 @@
 # 📺 Netflix_Titles_EDA
 
-A beginner-friendly Exploratory Data Analysis (EDA) project based on the [Netflix Titles dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows). This analysis explores the types, genres, countries, and release trends of movies and TV shows available on Netflix.
+A beginner-friendly Exploratory Data Analysis (EDA) project using the [Netflix Titles dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows). This notebook explores global trends in Netflix content including types, genres, countries, and temporal patterns.
 
 ---
 
-## 🔍 Project Overview
+## 🔍 Project Objectives
 
-This project aims to uncover insights from Netflix’s global content catalog using data visualization and analysis techniques. It is a great starting point for anyone learning EDA, Python, or data storytelling.
-
----
-
-## 📁 Dataset
-
-- **Source:** [Kaggle - Netflix Titles](https://www.kaggle.com/datasets/shivamb/netflix-shows)
-- **Attributes include:**
-  - Title
-  - Director
-  - Cast
-  - Country
-  - Date Added
-  - Release Year
-  - Rating
-  - Duration
-  - Genre (listed_in)
-  - Description
+- Clean and explore Netflix's dataset
+- Visualize content type distribution (Movies vs TV Shows)
+- Identify top countries and most common genres
+- Examine trends over time (release years, added dates)
+- Analyze movie durations
 
 ---
 
-## 🛠️ Tools & Libraries
+## 📁 Dataset Overview
 
-- Python 🐍
-- Pandas
-- Seaborn
-- Matplotlib
-- Jupyter Notebook
-
----
-
-## 📊 Key Analyses & Visualizations
-
-- 📈 Count of Movies vs TV Shows  
-- 🌍 Top 10 Countries by Content Count  
-- ⏳ Release Trends Over the Years  
-- 🎭 Top 10 Most Common Genres  
-- ⏱️ Distribution of Movie Durations  
-
-All plots are designed with clean aesthetics using Seaborn and Matplotlib for better readability and presentation.
+- **Source**: Kaggle – [Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+- **Features include**:
+  - Title, Director, Cast
+  - Country, Date Added
+  - Release Year, Rating
+  - Duration, Listed_in (Genres), Description
 
 ---
 
-## 💡 Insights Summary
+## 🛠️ Technologies Used
 
-- Netflix has more movies than TV shows.
-- The United States dominates content production.
-- The most popular genres are *Dramas*, *International Movies*, and *Comedies*.
-- Content production has steadily increased over time, peaking in recent years.
-- Most Netflix movies are around 90 minutes long.
+- **Python**
+- **Jupyter Notebook**
+- **Pandas**
+- **Seaborn**
+- **Matplotlib**
 
 ---
 
-## 📘 How to Use
+## 📊 Key Visualizations
 
-1. Clone the repository:
+- Count of Movies vs TV Shows
+- Top 10 Countries with Most Content
+- Release Trends Over the Years
+- Most Common Genres
+- Distribution of Movie Durations
+
+All visualizations are built using Seaborn and Matplotlib with a clean, minimalist aesthetic.
+
+---
+
+## 💡 Insights
+
+- Netflix has more **movies** than TV shows.
+- The **United States** is the leading producer of Netflix content.
+- Common genres include **Dramas**, **International Movies**, and **Comedies**.
+- Content production has grown over time, peaking in recent years.
+- Most movies are around **90 minutes** long.
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/Netflix_Titles_EDA.git
+   git clone https://github.com/advait-vikas/Netflix_Titles_EDA.git
